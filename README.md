@@ -45,7 +45,10 @@ After copying the SSH Key go the to hosting service provider dashboard and paste
 ```bash
 ssh root@<server ip address> 
 ```
-
+### For Remote Host Error 
+```bash
+ssh-keygen -R <host>
+```
 ### For Windows
 
 1. Open the PuTTY app.
