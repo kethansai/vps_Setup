@@ -104,6 +104,10 @@ ufw enable
 ufw allow "Nginx Full"
 ```
 
+```
+ufw allow "OpenSSH"
+```
+
 ## First Page
 
 #### Delete the default server configuration
